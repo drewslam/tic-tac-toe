@@ -1,12 +1,36 @@
+html {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: aquamarine;
+    background-color: floralwhite;
+    font-size: 4em;
+}
+
 .gameboard {
     margin: auto;
     display: grid;
     height: 400px;
     width: 400px; 
     grid-template-columns: auto auto auto;
-    border: solid black 2em;
+    border: solid aqua .75em;
+    border-radius: 2%;
 }
 
 .box {
-    border: solid red .5em;
+    border: dotted turquoise .1em;
+    height: 115px;
+    width: 115px;
+    font-size: 5em;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10%;
 }
